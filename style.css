@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(255, 142, 170);
+    width: 100%;
+    height: 5rem;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 7rem);
+    padding: 1.5rem;
+    position: relative;
+}
+
+footer {
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+    height: 2rem;
+    padding: 1rem;
+    position: relative;
+}
+
+img {
+    width: 6%;
+    margin: 1rem;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main p {
+    font-size: large;
+}
+
+footer p {
+    font-size: small;
+}
+
+li {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
